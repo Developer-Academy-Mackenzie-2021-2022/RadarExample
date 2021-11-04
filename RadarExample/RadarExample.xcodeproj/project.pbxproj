@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C06F3010273330A400097493 /* FrameworkDeGraficos in Frameworks */ = {isa = PBXBuildFile; productRef = C06F300F273330A400097493 /* FrameworkDeGraficos */; };
 		DF99814B2733520300422C10 /* RadarExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF99814A2733520300422C10 /* RadarExampleApp.swift */; };
 		DF99814D2733520300422C10 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF99814C2733520300422C10 /* ContentView.swift */; };
 		DF99814F2733520700422C10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF99814E2733520700422C10 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C06F300D2733309B00097493 /* FrameworkDeGraficos */ = {isa = PBXFileReference; lastKnownFileType = folder; name = FrameworkDeGraficos; path = ../../NC4/FrameworkDeGraficos; sourceTree = "<group>"; };
 		DF9981472733520300422C10 /* RadarExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RadarExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF99814A2733520300422C10 /* RadarExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadarExampleApp.swift; sourceTree = "<group>"; };
 		DF99814C2733520300422C10 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -26,17 +28,35 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C06F3010273330A400097493 /* FrameworkDeGraficos in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C06F300C2733309B00097493 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				C06F300D2733309B00097493 /* FrameworkDeGraficos */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		C06F300E273330A400097493 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DF99813E2733520300422C10 = {
 			isa = PBXGroup;
 			children = (
+				C06F300C2733309B00097493 /* Packages */,
 				DF9981492733520300422C10 /* RadarExample */,
 				DF9981482733520300422C10 /* Products */,
+				C06F300E273330A400097493 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,6 +103,9 @@
 			dependencies = (
 			);
 			name = RadarExample;
+			packageProductDependencies = (
+				C06F300F273330A400097493 /* FrameworkDeGraficos */,
+			);
 			productName = RadarExample;
 			productReference = DF9981472733520300422C10 /* RadarExample.app */;
 			productType = "com.apple.product-type.application";
@@ -343,6 +366,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C06F300F273330A400097493 /* FrameworkDeGraficos */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FrameworkDeGraficos;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DF99813F2733520300422C10 /* Project object */;
 }
