@@ -1,19 +1,10 @@
-//
-//  ContentView.swift
-//  RadarExample
-//
-//  Created by Thais da Silva Bras on 03/11/21.
-//
-
 import SwiftUI
-import FrameworkDeGraficos
 
 struct ContentView: View {
     var body: some View {
         NavigationView {
             ScrollView {
                 VStack(alignment: .leading) {
-                    RadarChart(data: [[0.2, 0.4, 0.3, 0.6, 0.5]])
                     Text("Sobre o gráfico de radar")
                         .font(.headline)
                         .padding()
