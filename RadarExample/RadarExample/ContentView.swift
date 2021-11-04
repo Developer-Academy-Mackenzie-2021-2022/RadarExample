@@ -1,10 +1,12 @@
 import SwiftUI
+import Everest
 
 struct ContentView: View {
     var body: some View {
         NavigationView {
             ScrollView {
                 VStack(alignment: .leading) {
+                    RadarChart(data: [[2,2,3,5,7]])
                     Text("Sobre o gráfico de radar")
                         .font(.headline)
                         .padding()
