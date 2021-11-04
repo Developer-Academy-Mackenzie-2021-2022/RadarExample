@@ -6,7 +6,7 @@ struct ContentView: View {
         NavigationView {
             ScrollView {
                 VStack(alignment: .leading) {
-                    RadarChart(data: [[2,2,3,5,7]])
+                    RadarChart(data: [[2,4,6,5,7]])
                     Text("Sobre o gráfico de radar")
                         .font(.headline)
                         .padding()
@@ -16,7 +16,8 @@ struct ContentView: View {
                         .padding()
 
                 }
-            } .navigationTitle("Gráfico de Radar")
+            }
+            .navigationTitle("Gráfico de Radar")
         }
     }
 }
