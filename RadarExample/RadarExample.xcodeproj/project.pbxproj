@@ -11,6 +11,7 @@
 		C05B19012734421000DF8DD8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05B19002734421000DF8DD8 /* ContentView.swift */; };
 		C05B19032734421100DF8DD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C05B19022734421100DF8DD8 /* Assets.xcassets */; };
 		C05B19062734421100DF8DD8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C05B19052734421100DF8DD8 /* Preview Assets.xcassets */; };
+		C0C4F7FB2734804300C8D7C8 /* Everest in Frameworks */ = {isa = PBXBuildFile; productRef = C0C4F7FA2734804300C8D7C8 /* Everest */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0C4F7FB2734804300C8D7C8 /* Everest in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +85,9 @@
 			dependencies = (
 			);
 			name = RadarExample;
+			packageProductDependencies = (
+				C0C4F7FA2734804300C8D7C8 /* Everest */,
+			);
 			productName = RadarExample;
 			productReference = C05B18FB2734421000DF8DD8 /* RadarExample.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +116,9 @@
 				Base,
 			);
 			mainGroup = C05B18F22734421000DF8DD8;
+			packageReferences = (
+				C0C4F7F92734804300C8D7C8 /* XCRemoteSwiftPackageReference "NC4" */,
+			);
 			productRefGroup = C05B18FC2734421000DF8DD8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -341,6 +349,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C0C4F7F92734804300C8D7C8 /* XCRemoteSwiftPackageReference "NC4" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Developer-Academy-Mackenzie-2021-2022/NC4";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C0C4F7FA2734804300C8D7C8 /* Everest */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C0C4F7F92734804300C8D7C8 /* XCRemoteSwiftPackageReference "NC4" */;
+			productName = Everest;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C05B18F32734421000DF8DD8 /* Project object */;
 }
