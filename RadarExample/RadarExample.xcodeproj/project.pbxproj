@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C01704C82735ACD400A138EE /* Everest in Frameworks */ = {isa = PBXBuildFile; productRef = C01704C72735ACD400A138EE /* Everest */; };
 		C05B18FF2734421000DF8DD8 /* RadarExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05B18FE2734421000DF8DD8 /* RadarExampleApp.swift */; };
 		C05B19012734421000DF8DD8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05B19002734421000DF8DD8 /* ContentView.swift */; };
 		C05B19032734421100DF8DD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C05B19022734421100DF8DD8 /* Assets.xcassets */; };
 		C05B19062734421100DF8DD8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C05B19052734421100DF8DD8 /* Preview Assets.xcassets */; };
-		C0C4F7FB2734804300C8D7C8 /* Everest in Frameworks */ = {isa = PBXBuildFile; productRef = C0C4F7FA2734804300C8D7C8 /* Everest */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0C4F7FB2734804300C8D7C8 /* Everest in Frameworks */,
+				C01704C82735ACD400A138EE /* Everest in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,7 +86,7 @@
 			);
 			name = RadarExample;
 			packageProductDependencies = (
-				C0C4F7FA2734804300C8D7C8 /* Everest */,
+				C01704C72735ACD400A138EE /* Everest */,
 			);
 			productName = RadarExample;
 			productReference = C05B18FB2734421000DF8DD8 /* RadarExample.app */;
@@ -117,7 +117,7 @@
 			);
 			mainGroup = C05B18F22734421000DF8DD8;
 			packageReferences = (
-				C0C4F7F92734804300C8D7C8 /* XCRemoteSwiftPackageReference "NC4" */,
+				C01704C62735ACD400A138EE /* XCRemoteSwiftPackageReference "Everest" */,
 			);
 			productRefGroup = C05B18FC2734421000DF8DD8 /* Products */;
 			projectDirPath = "";
@@ -351,20 +351,20 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		C0C4F7F92734804300C8D7C8 /* XCRemoteSwiftPackageReference "NC4" */ = {
+		C01704C62735ACD400A138EE /* XCRemoteSwiftPackageReference "Everest" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/Developer-Academy-Mackenzie-2021-2022/NC4";
+			repositoryURL = "https://github.com/Developer-Academy-Mackenzie-2021-2022/Everest";
 			requirement = {
-				branch = main;
-				kind = branch;
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		C0C4F7FA2734804300C8D7C8 /* Everest */ = {
+		C01704C72735ACD400A138EE /* Everest */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = C0C4F7F92734804300C8D7C8 /* XCRemoteSwiftPackageReference "NC4" */;
+			package = C01704C62735ACD400A138EE /* XCRemoteSwiftPackageReference "Everest" */;
 			productName = Everest;
 		};
 /* End XCSwiftPackageProductDependency section */
